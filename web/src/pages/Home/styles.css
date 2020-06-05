@@ -1,7 +1,5 @@
 #page-home {
   height: 100vh;
-
-  background: url("../../assets/home-background.svg") no-repeat 700px bottom;
 }
 
 #page-home .content {
@@ -22,11 +20,30 @@
 
 #page-home .content main {
   flex: 1;
-  max-width: 560px;
 
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page-home .content main .hero-detail {
+  flex: 1.5;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+#page-home .content main .hero-illustration {
+  position: relative;
+  flex: 1;
+  height: 100%;
+}
+
+#page-home .content main .hero-illustration img {
+  position: fixed;
+  bottom: 0;
+  right: -25%;
+  width: 100%;
+  height: 80%;
 }
 
 #page-home .content main h1 {
@@ -97,11 +114,25 @@
     align-items: center;
   }
 
+  #page-home .content main .hero-detail {
+    align-items: center;
+  }
+
+  #page-home .content main .hero-illustration {
+    display: none;
+  }
+
   #page-home .content main h1 {
     font-size: 42px;
   }
 
   #page-home .content main p {
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #page-home .content main .hero-illustration img {
+    height: 60%;
   }
 }
