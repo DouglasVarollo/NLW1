@@ -44,6 +44,7 @@
   right: -25%;
   width: 100%;
   height: 80%;
+  z-index: -1;
 }
 
 #page-home .content main h1 {
