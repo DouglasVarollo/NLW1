@@ -1,6 +1,6 @@
-<center><img src="./.github/logo.svg" /></center>
+<p align="center"><img src="./.github/logo.svg" /></p>
 
-<center>Projeto desenvolvido na semana Next Level Week 1.0 da Rocketseat.</center>
+<p align="center">Projeto desenvolvido na semana Next Level Week 1.0 da Rocketseat.</p>
 
 ## Sobre o projeto
 
@@ -8,7 +8,7 @@ O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de 
 
 <img src="./.github/projeto.png" />
 
-## Backend
+## API
 
 Para executar a API siga as instruções do arquivo [README.md](https://github.com/DouglasVarollo/NLW1/blob/master/server/README.md) que está na pasta **server**.
 
